@@ -27,6 +27,10 @@
     height: 100%;
     transform: scale(1.2);
 }
+@media(min-width: 1000px) {
+    .img-logo-header{
+        width: 12vw;
+}
 .span-header{
     font-size: 15pt;
 }
@@ -38,6 +42,11 @@
     gap: 20px;
     justify-content: space-around;
     font-size: 15pt;
+}
+@media(min-width: 500px) {
+    .nav-header{
+        flex-direction: row;
+    }
 }
 .nav-header > a {
     margin: auto;
@@ -72,6 +81,10 @@
 .main-content{
     background-color: white;
     font-family: Asap Condensed;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .ul-list-products{
     width: 95%;
@@ -86,7 +99,7 @@
     align-content: center;
 }
 .li-individual-product{
-    width: 50%;
+    width: 25%;
     padding: 5%;
     display: flex;
     flex-direction: column;
@@ -152,7 +165,6 @@
     background-color: #21586c;
     width: 100vw;
     display: flex;
-    padding: 20px;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
@@ -161,11 +173,33 @@
     font-size: 15pt;
     gap: 20px;
 }
+@media(min-width: 1000px) {
+    .footer-content{
+        flex-direction: row;
+        padding: 20px 300px 20px 300px;
+        text-align: left;
+        align-content: left;
+    }
+}
+
+.div-footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .img-logo-footer{
     width: 25vw;
     margin: auto;
     height: 100%;
     transform: scale(1.2);
+}
+@media(min-width: 1000px) {
+    .img-logo-footer{
+        height: 50%;
+        width: 40%;
+    }
 }
 .span-footer{
     font-size: 15pt;
@@ -184,8 +218,15 @@
     gap: 5px;
     justify-content: center;
 }
+
+}
 .img-icon-logos {
     width: 7%;
+}
+@media(min-width: 1000px) {
+    .img-icon-logos {
+        width: 8%;
+    }
 }
 /****************************************************************************************************************************/
 /*END OF FOOTER*********************************************************************************************************************/
