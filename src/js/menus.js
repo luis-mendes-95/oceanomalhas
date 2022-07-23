@@ -1,5 +1,9 @@
 const headerMenu = [
     {
+        nome: "Tudo",
+        link: "./index.html"
+    },
+    {
         nome: "Uniformes",
         link: "./uniformes.html"
     },
@@ -11,7 +15,7 @@ const headerMenu = [
         nome: "Camisetas lisas",
         link: "./camisetas-lisas.html"
     },
-    {
+/*     {
         nome: "Windbanners",
         link: "./windbanners.html"
     },
@@ -22,5 +26,5 @@ const headerMenu = [
     {
         nome: "Moletons",
         link: "./moletons.html"
-    }
+    } */
 ]

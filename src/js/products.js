@@ -18,9 +18,9 @@ const products = [{
     },
     {
     id: 3,
-    nome: "Moletom personalizado com sua arte",
+    nome: "Uniforme moletom personalizado",
     preco: "Solicitar orçamento",
-    categoria: ["Moletons","Personalizados"],
+    categoria: "Uniformes",
     oferta: false,
     estoque: true,
     imgUrl: "./src/img/moletom-personalizado-com-sua-arte.jpg"  
@@ -38,7 +38,7 @@ const products = [{
     id: 5,
     nome: "Conjuntos de moletom",
     preco: "Solicitar orçamento",
-    categoria: ["Moletons"],
+    categoria: "Moletons",
     oferta: false,
     estoque: true,
     imgUrl: "./src/img/conjuntos-de-moletom.jpg"  
@@ -47,7 +47,7 @@ const products = [{
     id: 6,
     nome: "Camiseta lisa verde",
     preco: "Solicitar orçamento",
-    categoria: ["Camisetas Lisas"],
+    categoria: "Camisetas lisas",
     oferta: false,
     estoque: true,
     imgUrl: "./src/img/camiseta-lisa-verde.jpg"  
@@ -56,7 +56,7 @@ const products = [{
     id: 7,
     nome: "Camiseta lisa preta",
     preco: "Solicitar orçamento",
-    categoria: ["Camisetas Lisas"],
+    categoria: "Camisetas lisas",
     oferta: false,
     estoque: true,
     imgUrl: "./src/img/camiseta-lisa-preta.jpg"  
@@ -65,9 +65,18 @@ const products = [{
     id: 8,
     nome: "Camiseta lisa verde manga comprida",
     preco: "Solicitar orçamento",
-    categoria: ["Camisetas Lisas"],
+    categoria: "Camisetas lisas",
     oferta: false,
     estoque: true,
     imgUrl: "./src/img/camiseta-lisa-manga-comprida-verde.jpg"  
+    },
+    {
+    id: 8,
+    nome: "Uniforme camiseta básica",
+    preco: "Solicitar orçamento",
+    categoria: "Uniformes",
+    oferta: false,
+    estoque: true,
+    imgUrl: "./src/img/camiseta-uniforme-personalizado.jpg"  
     },
 ]
