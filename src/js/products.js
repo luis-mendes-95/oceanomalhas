@@ -1,7 +1,7 @@
 const products = [{
     id: 1,
     nome: "Camiseta personalizada estampa Brasil",
-    preco: "39,90",
+    preco: "59,90",
     categoria: "Camisetas personalizadas",
     oferta: false,
     estoque: true,
@@ -10,7 +10,7 @@ const products = [{
     {
     id: 2,
     nome: "Camiseta personalizada estampa Brasil Patriota",
-    preco: "39,90",
+    preco: "59,90",
     categoria: "Camisetas personalizadas",
     oferta: false,
     estoque: true,
